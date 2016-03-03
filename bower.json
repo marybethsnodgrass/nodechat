@@ -1,0 +1,21 @@
+{
+  "name": "nodechat",
+  "description": "Class exercise",
+  "main": "index.js",
+  "authors": [
+    "Marybeth Snodgrass (https://marybethsnodgrass.com/)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/marybethsnodgrass/nodechat",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}
