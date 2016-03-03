@@ -1,0 +1,28 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "Class exercise",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marybethsnodgrass/nodechat.git"
+  },
+  "author": "Marybeth Snodgrass (https://marybethsnodgrass.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marybethsnodgrass/nodechat/issues"
+  },
+  "homepage": "https://github.com/marybethsnodgrass/nodechat#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
